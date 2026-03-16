@@ -41,7 +41,7 @@ const WeComeToYouSection = () => {
                   alt={loc.label}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-secondary/50 group-hover:bg-secondary/60 transition-colors" />
+                <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition-colors" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-2xl md:text-3xl text-secondary-foreground">{loc.label}</h3>
                 </div>
