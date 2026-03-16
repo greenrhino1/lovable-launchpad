@@ -25,7 +25,8 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="pt-28 pb-16 min-h-[56vh] flex items-end bg-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/90" />
+        <img src={vanHero} alt="Easy Pick Locksmith Van" className="absolute inset-0 w-full h-full object-cover object-[center_40%]" />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
