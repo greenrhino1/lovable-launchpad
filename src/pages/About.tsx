@@ -16,7 +16,7 @@ const About = () => {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-28 pb-16 bg-secondary">
+      <section className="pt-28 pb-16 bg-black">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
