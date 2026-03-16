@@ -121,10 +121,12 @@ const Navbar = () => {
             Contact
           </Link>
 
-          <Button size="sm" className="rounded-[7px] font-semibold">
-            <Phone className="mr-1.5 h-4 w-4" />
-            Call Now
-          </Button>
+          <a href="tel:7205883155">
+            <Button size="sm" className="rounded-[7px] font-semibold">
+              <Phone className="mr-1.5 h-4 w-4" />
+              (720) 588-3155
+            </Button>
+          </a>
         </div>
 
         {/* Mobile toggle */}
