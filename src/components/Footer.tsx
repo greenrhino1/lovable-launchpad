@@ -9,11 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <KeyRound className="h-6 w-6 text-primary" />
-              <span className="text-xl text-secondary-foreground tracking-wider" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-                Easy Pick <span className="text-primary">Locksmith</span>
-              </span>
+            <div className="mb-4">
+              <img src={logoImg} alt="Easy Pick Locksmith" className="h-10" />
             </div>
             <p className="text-sm leading-relaxed">
               Your trusted local locksmith providing fast, professional service for residential, commercial, and automotive needs.
