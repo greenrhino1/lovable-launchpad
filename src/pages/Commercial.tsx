@@ -18,7 +18,7 @@ const Commercial = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <section className="pt-28 pb-16 min-h-[70vh] flex items-end bg-white relative overflow-hidden">
+      <section className="pt-28 pb-16 min-h-[56vh] flex items-end bg-white relative overflow-hidden">
         <img src={vanHero} alt="Easy Pick Locksmith Van" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-6 relative z-10">
