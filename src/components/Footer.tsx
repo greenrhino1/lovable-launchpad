@@ -48,10 +48,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg text-secondary-foreground mb-4" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>Contact</h4>
             <div className="flex flex-col gap-3 text-sm">
-              <div className="flex items-center gap-2">
+              <a href="tel:7205883155" className="flex items-center gap-2 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 text-primary shrink-0" />
-                <span>(555) 123-4567</span>
-              </div>
+                <span>(720) 588-3155</span>
+              </a>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary shrink-0" />
                 <span>info@easypicklocksmith.com</span>

@@ -218,10 +218,12 @@ const Navbar = () => {
                 Contact
               </Link>
 
-              <Button className="rounded-[7px] font-semibold w-full mt-2">
-                <Phone className="mr-1.5 h-4 w-4" />
-                Call Now
-              </Button>
+              <a href="tel:7205883155">
+                <Button className="rounded-[7px] font-semibold w-full mt-2">
+                  <Phone className="mr-1.5 h-4 w-4" />
+                  (720) 588-3155
+                </Button>
+              </a>
             </div>
           </motion.div>
         )}
