@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Phone, Menu, X, KeyRound, ChevronDown, Home, Building2, Car, Siren } from "lucide-react";
+import { Phone, Menu, X, ChevronDown, Home, Building2, Car, Siren } from "lucide-react";
+import logoImg from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -47,11 +48,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-secondary-foreground/10">
       <div className="container mx-auto px-6 flex items-center justify-between h-16">
-        <Link to="/" className="flex items-center gap-2">
-          <KeyRound className="h-7 w-7 text-primary" />
-          <span className="text-2xl text-secondary-foreground tracking-wider" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-            Easy Pick <span className="text-primary">Locksmith</span>
-          </span>
+        <Link to="/" className="flex items-center">
+          <img src={logoImg} alt="Easy Pick Locksmith" className="h-10" />
         </Link>
 
         {/* Desktop nav */}
