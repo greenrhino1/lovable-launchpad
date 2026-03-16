@@ -216,7 +216,7 @@ const Navbar = () => {
                 Contact
               </Link>
 
-              <Button className="rounded-md font-semibold w-full mt-2">
+              <Button className="rounded-[7px] font-semibold w-full mt-2">
                 <Phone className="mr-1.5 h-4 w-4" />
                 Call Now
               </Button>

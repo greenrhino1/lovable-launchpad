@@ -36,7 +36,7 @@ const PricingSection = () => {
               <p className="text-muted-foreground text-sm mb-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                 {item.description}
               </p>
-              <Button variant="outline" className="rounded-md border-foreground text-foreground hover:bg-foreground hover:text-background">
+              <Button variant="outline" className="rounded-[7px] border-foreground text-foreground hover:bg-foreground hover:text-background">
                 <Phone className="mr-2 h-4 w-4" />
                 Call Us
               </Button>
