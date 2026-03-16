@@ -30,7 +30,7 @@ const About = () => {
               About Us
             </span>
             <h1 className="text-5xl md:text-7xl whitespace-nowrap text-secondary-foreground leading-[0.9] mb-6">
-              ABOUT <span className="text-primary">US</span>
+              About <span className="text-primary">Us</span>
             </h1>
             <p className="text-secondary-foreground/70 text-lg max-w-lg">
               For over a decade, Easy Pick Locksmith has been the go-to locksmith for homes, businesses, and vehicles in our community.
