@@ -22,7 +22,7 @@ const CTASection = () => {
               <Phone className="mr-2 h-5 w-5" />
               (555) 123-4567
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-10 py-6 rounded-full border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10 hover:text-secondary-foreground">
+            <Button size="lg" variant="outline" className="text-lg px-10 py-6 rounded-none border-secondary-foreground/30 text-secondary-foreground bg-transparent hover:bg-secondary-foreground/10 hover:text-secondary-foreground">
               Get a Free Quote
             </Button>
           </div>
