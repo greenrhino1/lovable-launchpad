@@ -23,7 +23,7 @@ const Contact = () => {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-28 pb-16 bg-white relative">
+      <section className="pt-28 pb-16 min-h-[56vh] flex items-end bg-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black/90" />
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -34,7 +34,7 @@ const Contact = () => {
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-4 border border-primary/30">
               Contact Us
             </span>
-            <h1 className="text-5xl md:text-7xl text-secondary-foreground leading-[0.9] mb-6">
+            <h1 className="text-5xl md:text-7xl whitespace-nowrap text-secondary-foreground leading-[0.9] mb-6">
               Get In <span className="text-primary">Touch</span>
             </h1>
             <p className="text-secondary-foreground/70 text-lg max-w-lg">
