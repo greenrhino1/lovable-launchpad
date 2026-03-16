@@ -8,7 +8,7 @@ import emergencyImg from "@/assets/service-emergency.jpg";
 const locations = [
   { image: residentialImg, label: "We come to your home!", path: "/services/residential" },
   { image: commercialImg, label: "We come to your business!", path: "/services/commercial" },
-  { image: automotiveImg, label: "We come to your car!", path: "/services/automotive" },
+  { image: automotiveImg, label: "We come to your auto!", path: "/services/automotive" },
   { image: emergencyImg, label: "We come to you 24/7!", path: "/services/emergency" },
 ];
 
