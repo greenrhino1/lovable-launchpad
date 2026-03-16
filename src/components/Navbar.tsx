@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Phone, Menu, X, KeyRound, ChevronDown, Home, Building2, Car, Siren } from "lucide-react";
+import { Phone, Menu, X, ChevronDown, Home, Building2, Car, Siren } from "lucide-react";
+import logoImg from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
