@@ -19,7 +19,7 @@ const Commercial = () => {
       <Navbar />
       <section className="pt-28 pb-16 bg-white relative">
         <div className="absolute inset-0 bg-black/60" />
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl">
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-4 border border-primary/30">
               <Building2 className="inline h-4 w-4 mr-1 -mt-0.5" /> Commercial

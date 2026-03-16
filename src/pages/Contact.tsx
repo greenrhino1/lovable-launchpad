@@ -25,7 +25,7 @@ const Contact = () => {
       {/* Hero */}
       <section className="pt-28 pb-16 bg-white relative">
         <div className="absolute inset-0 bg-black/60" />
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
