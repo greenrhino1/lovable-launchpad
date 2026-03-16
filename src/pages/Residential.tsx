@@ -27,7 +27,7 @@ const Residential = () => {
               <Home className="inline h-4 w-4 mr-1 -mt-0.5" /> Residential
             </span>
             <h1 className="text-5xl md:text-7xl whitespace-nowrap text-secondary-foreground leading-[0.9] mb-6">
-              Home <span className="text-primary">Locksmith</span>
+              Residential <span className="text-primary">Locksmith</span>
             </h1>
             <p className="text-secondary-foreground/70 text-lg max-w-lg">
               Keep your family safe with professional residential locksmith services — from lockouts to full security upgrades.
