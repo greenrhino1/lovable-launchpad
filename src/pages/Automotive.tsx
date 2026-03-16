@@ -26,7 +26,7 @@ const Automotive = () => {
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-4 border border-primary/30">
               <Car className="inline h-4 w-4 mr-1 -mt-0.5" /> Automotive
             </span>
-            <h1 className="text-5xl md:text-7xl text-secondary-foreground leading-[0.9] mb-6">
+            <h1 className="text-5xl md:text-7xl whitespace-nowrap text-secondary-foreground leading-[0.9] mb-6">
               Auto <span className="text-primary">Locksmith</span>
             </h1>
             <p className="text-secondary-foreground/70 text-lg max-w-lg">
