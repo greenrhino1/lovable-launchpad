@@ -37,6 +37,7 @@ const Contact = () => {
               Contact Us
             </span>
             <h1 className="text-5xl md:text-7xl whitespace-nowrap text-secondary-foreground leading-[0.9] mb-6">
+              CONTACT <span className="text-primary">US</span>
               CONTACT
             </h1>
             <p className="text-secondary-foreground/70 text-lg max-w-lg">
