@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Shield, Clock, Award, Users } from "lucide-react";
+import vanHero from "@/assets/van-hero.png";
 
 const stats = [
   { icon: Clock, value: "10+", label: "Years Experience" },
