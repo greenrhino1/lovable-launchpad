@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Shield, Clock, Award, Users } from "lucide-react";
+import vanHero from "@/assets/van-hero.png";
 
 const stats = [
   { icon: Clock, value: "10+", label: "Years Experience" },
@@ -16,8 +17,9 @@ const About = () => {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-28 pb-16 bg-white relative">
-        <div className="absolute inset-0 bg-black/90" />
+      <section className="pt-28 pb-16 min-h-[56vh] flex items-end bg-white relative overflow-hidden">
+        <img src={vanHero} alt="Easy Pick Locksmith Van" className="absolute inset-0 w-full h-full object-cover object-[center_40%]" />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
