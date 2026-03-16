@@ -19,7 +19,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl text-secondary-foreground leading-[0.9] mb-6">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-secondary-foreground leading-[0.9] mb-6">
               Easy Pick<br />
               <span className="text-primary">Locksmith</span>
             </h1>
