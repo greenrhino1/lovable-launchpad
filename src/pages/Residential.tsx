@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { motion } from "framer-motion";
 import { Home, ArrowRight, Lock, KeyRound, DoorOpen, ShieldCheck, Wrench, ScanLine } from "lucide-react";
+import vanHero from "@/assets/van-hero.png";
 
 const services = [
   { icon: Lock, title: "Lock Installation", desc: "Professional installation of deadbolts, knob locks, and smart locks for every door in your home." },
@@ -17,7 +18,8 @@ const Residential = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <section className="pt-28 pb-16 bg-white relative">
+      <section className="pt-28 pb-16 bg-white relative overflow-hidden">
+        <img src={vanHero} alt="Easy Pick Locksmith Van" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/90" />
         <div className="container mx-auto px-6 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl">
