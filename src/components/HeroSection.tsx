@@ -33,7 +33,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <Button size="lg" className="text-lg px-10 py-6 rounded-lg font-semibold bg-foreground text-background hover:bg-foreground/90">
+            <Button size="lg" className="text-lg px-10 py-6 rounded-md font-semibold bg-foreground text-background hover:bg-foreground/90">
               <Phone className="mr-2 h-5 w-5" />
               Talk to Agent
             </Button>
