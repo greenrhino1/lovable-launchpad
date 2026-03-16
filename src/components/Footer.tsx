@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg text-secondary-foreground mb-4" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>Services</h4>
             <div className="flex flex-col gap-2 text-sm">
-              <span>Residential Locksmith</span>
-              <span>Commercial Locksmith</span>
-              <span>Automotive Locksmith</span>
-              <span>Emergency Services</span>
+              <Link to="/services/residential" className="hover:text-primary transition-colors">Residential Locksmith</Link>
+              <Link to="/services/commercial" className="hover:text-primary transition-colors">Commercial Locksmith</Link>
+              <Link to="/services/automotive" className="hover:text-primary transition-colors">Automotive Locksmith</Link>
+              <Link to="/services/emergency" className="hover:text-primary transition-colors">Emergency Services</Link>
             </div>
           </div>
 
