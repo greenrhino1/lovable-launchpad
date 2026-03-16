@@ -27,7 +27,7 @@ const Commercial = () => {
               <Building2 className="inline h-4 w-4 mr-1 -mt-0.5" /> Commercial
             </span>
             <h1 className="text-5xl md:text-7xl whitespace-nowrap text-secondary-foreground leading-[0.9] mb-6">
-              Business <span className="text-primary">Locksmith</span>
+              Commercial <span className="text-primary">Locksmith</span>
             </h1>
             <p className="text-secondary-foreground/70 text-lg max-w-lg">
               Protect your business with professional commercial locksmith services — from master key systems to access control.
