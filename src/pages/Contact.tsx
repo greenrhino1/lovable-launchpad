@@ -23,7 +23,8 @@ const Contact = () => {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-28 pb-16 bg-black">
+      <section className="pt-28 pb-16 bg-white relative">
+        <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

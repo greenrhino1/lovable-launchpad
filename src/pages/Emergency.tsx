@@ -17,7 +17,8 @@ const Emergency = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <section className="pt-28 pb-16 bg-black">
+      <section className="pt-28 pb-16 bg-white relative">
+        <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-6">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl">
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-4 border border-primary/30">
